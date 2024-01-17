@@ -123,7 +123,7 @@ pipeline{
         }
         // stage("deploy_docker"){
         //     steps{
-        //         sh "docker run -d --name taxi-booking -p 8070:8070 rameshkumarverma/taxi-booking:latest"
+        //         sh "docker run -d --name taxi-booking -p 8000:8000 rameshkumarverma/taxi-booking:latest"
         //     }
         // }
 
